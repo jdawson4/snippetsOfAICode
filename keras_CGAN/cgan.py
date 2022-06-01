@@ -8,9 +8,9 @@
 
 # imports:
 from tensorflow import keras
-from tensorflow.keras import layers
-from tensorflow_docs.vis import embed
-import matplotlib.pyplot as plt
+from tensorflow.keras import layers # vscode claims there's an error on this line. I don't see why that would be the case???
+#from tensorflow_docs.vis import embed
+#import matplotlib.pyplot as plt
 import tensorflow as tf
 import numpy as np
 import imageio
