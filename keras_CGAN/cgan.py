@@ -75,6 +75,9 @@ generator = keras.Sequential(
     name='generator',
 )
 
+generator.summary()
+discriminator.summary()
+
 # creating a ConditionalGAN model (exciting!)
 class ConditionalGAN(keras.Model):
     def __init__(self,discriminator, generator, latent_dim):
